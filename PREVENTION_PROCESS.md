@@ -1,6 +1,6 @@
 ### DRAFT
 
-To start, I determined that I needed to research the EternalBlue exploit to give myself a better idea on where my focus should be. From the sources I found (mentioned in SOURCES.mb), I learned that I needed to focus on disabling SMB1, installing the MS17-010 patch (or just making sure it is installed), and doing an overall check on the firewall (to be safe). 
+To start, I determined that I needed to research the EternalBlue exploit to give myself a better idea on where my focus should be. From the sources I found, I learned that I needed to focus on disabling SMB1, installing the MS17-010 patch (or just making sure it is installed), and doing an overall check on the firewall (to be safe). 
 
 I started by attempting to install the MS17-010 patch, though I am unsure whether it ever successfully downloaded before the attempted attack (there was no response in Command Prompt when running the command to get the patch, and there was no response when I tried to check if it was successfully added). With this in mind, I believe that SMB1's disabling had a larger role in preventing the attack.
 
