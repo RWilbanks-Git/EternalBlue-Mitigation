@@ -1,4 +1,4 @@
-## EternalBlue-Exploit-Prevention
+# EternalBlue-Exploit-Prevention
 
 This repository includes the steps taken to prevent an attack involving the EternalBlue exploit.
 
@@ -14,7 +14,7 @@ EternalBlue is a remote code execution vulnerability that targets legacy impleme
 
 Because SMBv1 is deprecated and inherently insecure, effective mitigation requires a layered defensive approach rather than reliance on a single control.
 
-##Mitigation Approach
+## Mitigation Approach
 
 The system was hardened using multiple defensive measures, including:
 
@@ -28,13 +28,13 @@ Applying general system hardening principles to reduce attack surface
 
 These steps reflect defense-in-depth practices commonly used to mitigate known vulnerabilities in enterprise environments.
 
-##Evaluation
+## Evaluation
 
 Mitigation effectiveness was evaluated in a lab setting by observing system behavior following hardening steps. The focus of evaluation was on confirming that vulnerable services were disabled and that network exposure was appropriately restricted.
 
 This project emphasized understanding why each mitigation step is effective rather than relying solely on automated tools.
 
-##Tools & Technologies
+## Tools & Technologies
 
 Windows operating system (lab environment)
 
