@@ -1,14 +1,11 @@
 # EternalBlue-Exploit-Prevention
-
-This repository includes the steps taken to prevent an attack involving the EternalBlue exploit.
-
-##Overview
+# Overview
 
 This project focuses on hardening a Windows system to mitigate the EternalBlue vulnerability (MS17-010), a critical flaw in the SMBv1 protocol that enabled widespread ransomware outbreaks such as WannaCry. The goal of this work was to reduce attack surface and prevent exploitation through defensive system configuration rather than exploit development.
 
 The project was completed in a controlled lab environment and emphasizes practical defensive security principles used in real-world system administration and cybersecurity roles.
 
-##Background
+## Background
 
 EternalBlue is a remote code execution vulnerability that targets legacy implementations of SMBv1. Systems that are unpatched or improperly configured are vulnerable to exploitation and lateral movement within a network.
 
