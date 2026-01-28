@@ -1,4 +1,4 @@
-# EternalBlue-Exploit-Prevention
+# EternalBlue-Mitigation
 # Overview
 
 This project focuses on hardening a Windows system to mitigate the EternalBlue vulnerability (MS17-010), a critical flaw in the SMBv1 protocol that enabled widespread ransomware outbreaks such as WannaCry. The goal of this work was to reduce attack surface and prevent exploitation through defensive system configuration rather than exploit development.
