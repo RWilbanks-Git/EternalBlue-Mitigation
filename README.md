@@ -37,6 +37,4 @@ Windows operating system (lab environment)
 
 System configuration and service management
 
-Firewall configuration concepts
-
 Vulnerability research and documentation (MS17-010)
